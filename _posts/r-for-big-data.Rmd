@@ -1,0 +1,40 @@
+---
+output:
+  html_document:
+    keep_md: true
+---
+
+```{r echo=FALSE}
+source("R/functions.R")
+r_ver = current_r_version()
+```
+## R for big data
+
+
+### R and RStudio
+
+Please make sure you are using the latest version of R (version
+`r r_ver`) - the final digit is the minor version number. The essentianal numbers 
+are the first two. You can check the version of R you are running via
+```{r}
+R.version
+```
+
+Please install the preview version of RStudio (https://www.rstudio.com/products/rstudio/download/preview/)
+
+### Compilers (Windows and Macs only)
+ 
+ * For windows users, you will need to install [Rtools](https://cran.r-project.org/bin/windows/Rtools/)
+ * For Mac users, you will need xcode
+
+### Additional packages
+
+This course uses a large number of R packages that should be installed before the course:
+
+```{r eval=FALSE}
+install.packages("drat")
+drat::addRepo("jr-packages")
+install.packages("jrBig", dependencies = TRUE)
+sparklyr::spark_install(version="2.1.0")
+```
+

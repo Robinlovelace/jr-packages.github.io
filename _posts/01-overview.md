@@ -1,0 +1,23 @@
+---
+layout: post
+title: Attending a jumping rivers courses
+---
+
+Thank-you for choosing a Jumping Rivers course. We hope you enjoy the experience.
+If you have any questions before the course, please feel free 
+to contact the course organiser before hand. All of our courses
+require a laptop. Onsite, we will provide power and wifi. However as you can
+imagine the quality of wifi can be variable and is often outside of our control. 
+Therefore, please consult the course
+pages below to ensure you install the necessary packages before the course. 
+
+Some of the packages are large - so please avoid the urge of leaving installation
+until the train journey or the hotel!
+
+If in doubt - ask!
+
+#### Course pages
+
+  * [R for Big data](r-for-big-data/)
+  * [Automated report](automated-reporting/)
+

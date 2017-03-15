@@ -1,6 +1,6 @@
 
 
-## R for big data
+## Automated reporting
 
 ### R and RStudio
 
@@ -30,12 +30,7 @@ R.version
 ## nickname       Supposedly Educational
 ```
 
-Please install the preview version of [RStudio](https://www.rstudio.com/products/rstudio/download/preview/)
-
-### Compilers (Windows and Macs only)
- 
- * For windows users, you will need to install [Rtools](https://cran.r-project.org/bin/windows/Rtools/)
- * For Mac users, you will need xcode
+Please install the latest version of RStudio (https://www.rstudio.com/products/rstudio/download/); 
 
 ### Additional packages
 
@@ -45,7 +40,6 @@ This course uses a large number of R packages that should be installed before th
 ```r
 install.packages("drat")
 drat::addRepo("jr-packages")
-install.packages("jrBig", dependencies = TRUE)
-sparklyr::spark_install(version="2.1.0")
+install.packages("jrShiny", dependencies = TRUE)
 ```
 

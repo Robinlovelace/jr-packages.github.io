@@ -3,7 +3,7 @@ layout: post
 title: Attending a jumping rivers courses
 ---
 
-Thank-you for choosing a Jumping Rivers course. We hope you enjoy the experience.
+Thank-you for choosing a [Jumping Rivers](www.jumpingrivers.com) course. We hope you enjoy the experience.
 If you have any questions before the course, please feel free 
 to contact the course organiser before hand. All of our courses
 require a laptop. Onsite, we will provide power and wifi. However as you can

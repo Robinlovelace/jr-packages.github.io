@@ -8,7 +8,6 @@ output:
 source("R/functions.R")
 r_ver = current_r_version()
 ```
-## Automated reporting
 
 ### R and RStudio
 

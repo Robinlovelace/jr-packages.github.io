@@ -1,6 +1,5 @@
 
 
-## Automated reporting
 
 ### R and RStudio
 

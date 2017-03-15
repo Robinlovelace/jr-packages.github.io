@@ -1,4 +1,7 @@
-
+---
+layout: page
+title: `R for big data`
+---
 
 ### R and RStudio
 

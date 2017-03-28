@@ -17,7 +17,7 @@ Please install the latest version of RStudio (<https://www.rstudio.com/products/
 This course uses a large number of R packages that should (if possible) be installed before the course. 
 After installing R & RStudio, open RStudio and in the __console__ window
 
-![](_includes/rstudio.png)
+![](graphics/rstudio.png)
 
 Run the following lines of code
 

@@ -5,7 +5,7 @@ title: Automated Reporting
 
 ### R and RStudio
 
-Please make sure you are using the latest version of R (version 3.3.3) - the final digit is the minor version number. The essentianal numbers are the first two. You can check the version of R you are running via
+Please make sure you are using the latest version of R (version 3.3.3) - the final digit is the minor version number. The essential numbers are the first two. You can check the version of R you are running via
 
 ``` r
 R.version

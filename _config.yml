@@ -11,7 +11,7 @@ description:         'Pre-course information to help you make the most of the da
 url:                 http://www.jumpingrivers.com
 baseurl:             ''
 paginate:            5
-
+exclude:             '*.Rmd'
 # About/contact
 author:
   name:              Jumping Rivers

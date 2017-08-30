@@ -8,7 +8,7 @@ permalink:           pretty
 title:               Jumping Rivers
 tagline:             'Pre-course material'
 description:         'Pre-course information to help you make the most of the day..'
-url:                 http://www.jumpingrivers.com
+url:                 https://www.jumpingrivers.com
 baseurl:             ''
 paginate:            5
 exclude:
@@ -17,8 +17,8 @@ exclude:
 # About/contact
 author:
   name:              Jumping Rivers
-  url:               http://www.jumpingrivers.com
-  email:             training@jumpingrivers.com
+  url:               https://www.jumpingrivers.com
+  email:             info@jumpingrivers.com
 
 # Custom vars
 version:             1.0.0

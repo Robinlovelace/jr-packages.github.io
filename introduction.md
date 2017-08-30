@@ -9,7 +9,7 @@ output:
 
 ### R and RStudio
 
-Please make sure you are using the latest version of [R](https://cran.r-project.org/) (version 3.3.3) - the final digit is the minor version number. The essential numbers are the first two. You can check the version of R you are running via
+Please make sure you are using the latest version of [R](https://cran.r-project.org/) (version 3.4.1) - the final digit is the minor version number. The essential numbers are the first two. You can check the version of R you are running via
 
 Please install the latest version of RStudio (<https://www.rstudio.com/products/rstudio/download/>);
 

@@ -1,0 +1,33 @@
+---
+layout: page
+title: Advanced graphics with R
+output:
+  md_document:
+    variant: markdown_github
+    preserve_yaml: true
+editor_options: 
+  chunk_output_type: console
+---
+```{r echo=FALSE}
+source("R/functions.R")
+```
+
+`r r_studio_header()`
+
+### Additional packages
+
+This course uses a few other packages. Run the following lines of code to 
+install them.
+
+```{r, eval=FALSE}
+install.packages("drat")
+drat::addRepo("jr-packages")
+install.packages("jrGgplot2", dependencies = TRUE)
+```
+
+The command
+
+```{r, message=FALSE}
+library("jrGgplot2")
+```
+should run in the console window.

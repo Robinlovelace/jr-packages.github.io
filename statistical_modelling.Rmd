@@ -8,14 +8,11 @@ output:
 editor_options: 
   chunk_output_type: console
 ---
-  ```{r echo=FALSE}
+```{r echo=FALSE}
 source("R/functions.R")
 ```
 
-### R and RStudio
-
-Please make you sure you have the latest versions of R and RStudio (see the [introduction](../introduction) page
-for details).
+`r r_studio_header()`
 
 ### Additional packages
 

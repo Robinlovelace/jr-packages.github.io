@@ -15,13 +15,14 @@ Please install the latest version of RStudio (<https://www.rstudio.com/products/
 
 ### Additional packages
 
-This course uses a large number of R packages that should (if possible) be installed before the course. After installing R & RStudio, open RStudio and in the **console** window
+This course uses a large number of R packages that should (if possible) be installed before the course. 
+After installing R & RStudio, open RStudio and in the __console__ window
 
 ![](../graphics/rstudio.png)
 
 Run the following lines of code
 
-``` r
+```{r, eval=FALSE}
 install.packages("drat")
 drat::addRepo("jr-packages")
 install.packages("jrIntroduction", dependencies = TRUE)
@@ -29,8 +30,7 @@ install.packages("jrIntroduction", dependencies = TRUE)
 
 The command
 
-``` r
+```{r, message=FALSE}
 library("jrIntroduction")
 ```
-
 should run in the console window.

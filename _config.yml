@@ -13,6 +13,7 @@ baseurl:             ''
 paginate:            5
 exclude:
   - introduction.Rmd
+  - "*.Rmd"
 
 # About/contact
 author:

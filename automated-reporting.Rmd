@@ -23,4 +23,9 @@ drat::addRepo("jr-packages")
 install.packages("jrShiny", dependencies = TRUE)
 ```
 
+The command
 
+```{r, message=FALSE}
+library("jrShiny")
+```
+should run in the console window.

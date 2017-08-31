@@ -15,14 +15,17 @@ to come to the course with R and associated software pre-installed. From your po
 coming to the course to learn about R. 
 
 As a compromise, please come to the course with R and RStudio already installed (see below). If you can install the additional packages, great, but in general we should be able to sort it out on the day. However,
-if you suspect your laptop is going to be awkward, e.g. doesn't contact to wifi, then 
-please contact us before the course.
+if you suspect your laptop is going to be awkward, e.g. doesn't connect to WiFi, then 
+contact us before the course.
 
 ### R and RStudio
 
-Please make sure you are using the latest version of [R](https://cran.r-project.org/) (version `r current_r_version()`) - the final digit is the minor version number. The essential numbers are the first two. You can check the version of R you are running via
+Please make sure you are using the latest version of [R](https://cran.r-project.org/) (current version is `r current_r_version()`) - the final digit is the minor version number. The essential numbers are the first two. You can check the version of R you are running via
 
-Please install the latest version of RStudio (<https://www.rstudio.com/products/rstudio/download/>);
+```{r}
+R.version.string
+```
+Please install the latest version of RStudio (<https://www.rstudio.com/products/rstudio/download/>).
 
 ### Additional packages
 
@@ -39,9 +42,10 @@ drat::addRepo("jr-packages")
 install.packages("jrIntroduction", dependencies = TRUE)
 ```
 
-The command
+If everything goes to plan, the command
 
 ```{r, message=FALSE}
 library("jrIntroduction")
 ```
-should run in the console window.
+should run in the console window without raising any errors or warnings.
+

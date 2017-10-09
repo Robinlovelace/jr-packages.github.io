@@ -20,7 +20,7 @@ so it's very important that this is done before the course.
 Installation instructions can be found [here](https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started).
 
 Please make sure that 
-```{r echo=FALSE}
+```{r eval=FALSE}
 library("rstan")
 ```
 runs. It's also a very good idea to run the the "Eight Schools" example.

@@ -2,12 +2,12 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-#relative_permalinks: true
+relative_permalinks: true
 
 # Setup
 title:               Jumping Rivers
 tagline:             'Pre-course material'
-description:         'Pre-course information to help you make the most of the day..'
+description:         'Pre-course information to help you make the most of the day.'
 url:                 https://www.jumpingrivers.com
 baseurl:             ''
 paginate:            5

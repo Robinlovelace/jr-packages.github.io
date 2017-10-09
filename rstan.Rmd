@@ -1,0 +1,26 @@
+---
+layout: page
+title: Introduction to Bayesian Inference using RStan
+output:
+  md_document:
+    variant: markdown_github
+    preserve_yaml: true
+editor_options: 
+  chunk_output_type: console
+---
+```{r echo=FALSE}
+source("R/functions.R")
+```
+`r r_studio_header()`
+
+### Additional packages
+
+It may take a long time to install the course packages and 
+so it's very important that this is done before the course. 
+Installation instructions can be found [here](https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started).
+
+Please make sure that 
+```{r echo=FALSE}
+library("rstan")
+```
+runs. It's also a very good idea to run the the "Eight Schools" example.

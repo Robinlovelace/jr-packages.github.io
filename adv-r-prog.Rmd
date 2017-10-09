@@ -21,7 +21,7 @@ install them.
 ```{r, eval=FALSE}
 install.packages("drat")
 drat::addRepo("jr-packages")
-install.packages("jAdvanced")
+install.packages("jrAdvanced")
 ```
 
 The command

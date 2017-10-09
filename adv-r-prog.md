@@ -26,7 +26,7 @@ This course uses a few other packages. Run the following lines of code to instal
 ``` r
 install.packages("drat")
 drat::addRepo("jr-packages")
-install.packages("jAdvanced")
+install.packages("jrAdvanced")
 ```
 
 The command

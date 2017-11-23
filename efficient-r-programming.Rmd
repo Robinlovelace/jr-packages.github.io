@@ -1,0 +1,33 @@
+---
+layout: page
+title: Efficient R Programming
+output:
+  md_document:
+    variant: markdown_github
+    preserve_yaml: true
+editor_options: 
+  chunk_output_type: console
+---
+```{r echo=FALSE}
+source("R/functions.R")
+```
+
+`r r_studio_header()`
+
+### Additional packages
+
+This course uses a few other packages. Run the following lines of code to 
+install them.
+
+```{r, eval=FALSE}
+install.packages("drat")
+drat::addRepo("jr-packages")
+install.packages("jrEfficient")
+```
+
+The command
+
+```{r, message=FALSE}
+library("jrEfficient")
+```
+should run in the console window.

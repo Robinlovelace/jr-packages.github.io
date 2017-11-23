@@ -18,8 +18,9 @@ Please install the latest version of RStudio (<https://www.rstudio.com/products/
 
 
 jr_footer = function(page) {
-  paste("---
+  paste0("---
 
-[![](300_125.jpg)](https://www.jumpingrivers.com/?utm_source=jr-packages&utm_medium=image&utm_campaign=", page)
+[![](300_125.jpg)](https://www.jumpingrivers.com/?utm_source=jr-packages&utm_medium=image&utm_campaign=", page, ")")
   
 }
+

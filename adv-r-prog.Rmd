@@ -31,3 +31,5 @@ library("jrAdvanced")
 ```
 should run in the console window with no errors.
 
+
+`r jr_footer("advanced")`

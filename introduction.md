@@ -13,13 +13,13 @@ As a compromise, please come to the course with R and RStudio already installed 
 
 ### R and RStudio
 
-Please make sure you are using the latest version of [R](https://cran.r-project.org/) (current version is 3.4.1) - the final digit is the minor version number. The essential numbers are the first two. You can check the version of R you are running via
+Please make sure you are using the latest version of [R](https://cran.r-project.org/) (current version is 3.4.3) - the final digit is the minor version number. The essential numbers are the first two. You can check the version of R you are running via
 
 ``` r
 R.version.string
 ```
 
-    ## [1] "R version 3.4.1 (2017-06-30)"
+    ## [1] "R version 3.4.3 (2017-11-30)"
 
 Please install the latest version of RStudio (<https://www.rstudio.com/products/rstudio/download/>).
 

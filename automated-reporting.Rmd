@@ -20,12 +20,12 @@ This course uses a large number of R packages that should be installed before th
 ```{r, eval=FALSE}
 install.packages("drat")
 drat::addRepo("jr-packages")
-install.packages("jrShiny", dependencies = TRUE)
+install.packages("jrAutomate", dependencies = TRUE)
 ```
 
 The command
 
 ```{r, message=FALSE}
-library("jrShiny")
+library("jrAutomate")
 ```
 should run in the console window.

@@ -9,7 +9,7 @@ output:
 
 ### R and RStudio
 
-Please make sure you are using the latest version of [R](https://cran.r-project.org/) (current version is 3.4.1 - the final digit is the minor version number. The essential numbers are the first two. You can check the version of R you are running via
+Please make sure you are using the latest version of [R](https://cran.r-project.org/) (current version is 3.4.3 - the final digit is the minor version number. The essential numbers are the first two. You can check the version of R you are running via
 
 ``` r
 R.version.string
@@ -24,5 +24,13 @@ This course uses a large number of R packages that should be installed before th
 ``` r
 install.packages("drat")
 drat::addRepo("jr-packages")
-install.packages("jrShiny", dependencies = TRUE)
+install.packages("jrAutomate", dependencies = TRUE)
 ```
+
+The command
+
+``` r
+library("jrAutomate")
+```
+
+should run in the console window.

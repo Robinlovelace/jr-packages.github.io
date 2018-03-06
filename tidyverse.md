@@ -46,6 +46,14 @@ library("jrTidyverse")
 
 should run in the console window without raising any errors or warnings.
 
+Even better is that the package contains a copy of the notes, that can be accessed via
+
+``` r
+get_notes()
+```
+
+These notes will be updated over the next week or two if we find any typos.
+
 ### Pre course questionnaire
 
 To help the instructors prepare for the course, would please complete the pre-course [questionnaire](https://www.jumpingrivers.com/q/scotland.html). It should only take 60 seconds. Thanks

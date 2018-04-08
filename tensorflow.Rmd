@@ -16,3 +16,14 @@ Installation is straightforward under Windows, MacOS and Linux. However it can't
 Only the simple installation for use with Python and a CPU is needed. You don't need to install GPU support. 
 
 The examples in the course will work with either Python 2 or 3. However, on some operating systems, tensorflow installation requires a recent version of Python. In particular Windows requires Python 3. See the installation instructions for more details.
+
+You should also have access to the following python packages:
+
+  * Keras (we'll be used in the standalone package rather than the library
+included within tensorflow)
+  * Jupyter
+  * numpy
+  * matplotlib
+  * sklearn
+  * h5py
+  

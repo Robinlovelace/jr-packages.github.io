@@ -11,7 +11,7 @@ editor_options:
 
 ### R and RStudio
 
-Please make sure you are using the latest version of [R](https://cran.r-project.org/) (current version is 3.4.3 - the final digit is the minor version number. The essential numbers are the first two. You can check the version of R you are running via
+Please make sure you are using the latest version of [R](https://cran.r-project.org/) (current version is 3.5.0 - the final digit is the minor version number. The essential numbers are the first two. You can check the version of R you are running via
 
 ``` r
 R.version.string
@@ -30,3 +30,12 @@ library("rstan")
 ```
 
 runs. It's also a very good idea to run the the "Eight Schools" example.
+
+Verify that your toolchain works by executing the code below in R and checking that it returns the value 10:
+
+``` r
+fx <- inline::cxxfunction(signature(x = "integer", y = "numeric" ) , '
+    return ScalarReal( INTEGER(x)[0] * REAL(y)[0] ) ;
+')
+fx(2L, 5 ) # should be 10
+```

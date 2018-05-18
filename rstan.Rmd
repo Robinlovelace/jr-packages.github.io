@@ -24,3 +24,12 @@ Please make sure that
 library("rstan")
 ```
 runs. It's also a very good idea to run the the "Eight Schools" example.
+
+Verify that your toolchain works by executing the code below in R and checking that it returns the value 10:
+
+```{r, eval = FALSE}
+fx <- inline::cxxfunction(signature(x = "integer", y = "numeric" ) , '
+	return ScalarReal( INTEGER(x)[0] * REAL(y)[0] ) ;
+')
+fx(2L, 5 ) # should be 10
+```

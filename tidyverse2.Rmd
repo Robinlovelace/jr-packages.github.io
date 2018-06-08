@@ -1,0 +1,33 @@
+---
+layout: page
+title: Next steps in the tidyverse
+output:
+  md_document:
+    variant: gfm
+    preserve_yaml: true
+editor_options: 
+  chunk_output_type: console
+---
+```{r echo=FALSE}
+source("R/functions.R")
+```
+
+`r r_studio_header()`
+
+### Additional packages
+
+This course uses a few other packages. Run the following lines of code to 
+install them.
+
+```{r, eval=FALSE}
+install.packages("drat")
+drat::addRepo("jr-packages")
+install.packages("jrTidyverse2", dependencies = TRUE)
+```
+
+The command
+
+```{r, message=FALSE}
+library("jrTidyverse2")
+```
+should run in the console window.

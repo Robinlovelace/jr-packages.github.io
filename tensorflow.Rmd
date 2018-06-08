@@ -3,7 +3,7 @@ layout: page
 title: Python and tensorflow
 output:
   md_document:
-    variant: markdown_github
+    variant: gfm
     preserve_yaml: true
 ---
 

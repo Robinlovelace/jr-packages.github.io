@@ -3,7 +3,7 @@ layout: page
 title: Automated Reporting
 output:
   md_document:
-    variant: markdown_github
+    variant: gfm
     preserve_yaml: true
 ---
 

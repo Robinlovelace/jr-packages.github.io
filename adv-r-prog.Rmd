@@ -3,7 +3,7 @@ layout: page
 title: Advanced R Programming
 output:
   md_document:
-    variant: markdown_github
+    variant: gfm
     preserve_yaml: true
 editor_options: 
   chunk_output_type: console

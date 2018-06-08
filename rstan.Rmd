@@ -3,7 +3,7 @@ layout: page
 title: Introduction to Bayesian Inference using RStan
 output:
   md_document:
-    variant: markdown_github
+    variant: gfm
     preserve_yaml: true
 editor_options: 
   chunk_output_type: console

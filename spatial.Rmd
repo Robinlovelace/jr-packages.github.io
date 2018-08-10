@@ -22,5 +22,16 @@ install them.
 install.packages("sf")
 install.packages("tmap")
 install.packages("spData")
+install.packages("raster")
+install.packages("tidyverse")
 ```
+
+You should ensure that you have an up-to-date R installation (version 3.5 at least) and that your packages are up-to-date. 
+See Chapter 2 of the free online book *Efficient R Programming*, particularly sections 2.3 and 2.5, for details on R installation and [set-up](https://csgillespie.github.io/efficientR/set-up.html).
+It is also worth learning the basics of the language, using resources such as "R for Data Science" or interactive guides such as [DataCamp](https://www.datacamp.com/courses/free-introduction-to-r) before proceeding.
+
+The course will be based primarily on the early chapters of the book Geocomputation with R. It may be worth looking at that, particularly the chapter on getting started, before the course. See http://geocompr.robinlovelace.net/spatial-class.html .
+
+If you are keen to install all software needed to reproduce the contents of the book, please see the book's github repo (which also explains how to run the code from a docker container): https://github.com/Robinlovelace/geocompr#reproducing-the-book
+
 
